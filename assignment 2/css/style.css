@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.moveright {
+    margin-top: 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    margin-left: -2%;
+}
+
+li {
+    float: left;
+  
+}
+
+li a {
+    font-size: 120%;
+    display: block;
+    color: #555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #337ab7;
+}
+
+.heading {
+    font-size: 150%;
+    margin-top: 30px;
+    font-weight: bold;
+    color: darkblue;
+    margin-left: -27%;
+    padding: 0px;
+    color: white;
+    display: none
+}
+
+.moveright {
+    float: right;
+    margin-top: 12px
+}
+
+.logo {
+    float: left;
+    margin-right: -15%;
+}
+
+.logo img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+/* --------content--------------*/
+
+.main-content {
+    margin-top: 5%;
+}
+
+.welcome-heading {
+    text-align: center;
+}
+
+.welcome-heading p {
+    text-align: justify;
+    margin: 4%;
+    font-size: 120%;
+}
+
+
+/*-----------buttons---------------*/
+
+.button {
+    display: inline-block;
+    background-color: #f45111;
+    border: 1px solid orange;
+    color: #FFFFFF;
+    font-size: 140%;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 300px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.button:hover span {
+    padding-right: 30px;
+}
+
+.button:hover span:after {
+    opacity: 0.9;
+    right: 0;
+}
+
+.section {
+    width: 100%;
+}
+
+.open-hours {
+    width: 50%;
+    margin-right: 15%;
+    margin-left: 15%
+}
+
+.map {
+    width: 49.5%;
+    margin-left: 5%;
+}
+
+
+/*-----------info-----------------*/
+
+.info {
+    margin-right: -50px;
+    margin-left: 50px;
+    margin-top: 50px
+}
+
+.title {
+    font-weight: bold;
+    font-size: 140%;
+    text-transform: uppercase;
+    padding: 15px;
+    color: darkblue;
+}
+
+.info p {
+    text-align: justify;
+    margin-right: 15px;
+    margin-top: 20px
+}
+
+
+/*--------for images -------*/
+
+.card {
+    background: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    height: 420px;
+    margin: 1rem;
+    position: relative;
+    width: 300px;
+    border: 1px solid orange;
+}
+
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+/*
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+*/
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.item_name {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.description {
+    margin: 5px;
+    font-size: 120%;
+    color: black;
+    text-align: justify;
+}
+
+
+/*------------Form----------------*/
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #555;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+.contact-main {
+    border-radius: 5px;
+    padding: 24px;
+    margin-top: 150px;
+    width: 60%;
+    margin-left: 250px;
+}
+
+.form-title {
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*-------table----------------*/
+
+caption {
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+    color: green
+}
+
+h3 {
+    text-align: center;
+    font-size: 120%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: red;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    text-align: center
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #555;
+    padding: 12px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+
+
+
+
+/*-----------map----------------*/
+
+.floor_map{
+    margin-left: 26%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+/*--------------Footer--------------*/
+
+.footer{
+    margin-top: 2%;
+    float: left;
+    padding: 40px;
+    font-size: 110%;
+    
+}
+
+
+
+
+
+
+
+/*-----------------About us--------------*/
+.about{
+position: relative;
+
+    margin: 100px 50px; 50px 0px;;
+        
+}
+
+.about-title{
+    font-size: 150%;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-info{
+    font-size: 120%;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*-------------Images-----------*/
+.imageing{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.imageing img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+    border:1px solid red;
+    border-radius: 50px;
+}
+
+.contains {
+    margin: 50px;
+}
+.contains h2{
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contains p{
+    font-size: 110%;
+    
+}

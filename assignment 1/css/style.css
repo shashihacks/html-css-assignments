@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #faf9f9;
+    overflow-x: hidden;
+}
+
+
+/*Reusable components*/
+
+.contents {
+    width: 100%;
+}
+
+.images-section {
+    width: 23%;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.images-section:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
+
+.text-name {
+    padding: 8px 12px;
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+/*Main navigation*/
+
+.logo {
+    float: left;
+    width: 22%;
+    margin: 10px
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 30px;
+}
+
+li {
+    display: inline-block;
+    font-size: 120%;
+}
+
+
+/*
+
+Buttons*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 8px 28px;
+    margin-right: 5px;
+    text-decoration: none;
+    border-radius: 180px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #000;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.active {
+    background-color: #cf6d17;
+    color: white;
+}
+
+.active span {
+    color: white;
+}
+
+
+/*Heading Main*/
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.clear {
+    height: 450px;
+    ;
+}
+
+.section {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.welcome-heading {
+    text-align: justify;
+}
+
+.welcome-heading p {
+    margin: 10px 150px 0px 0px;
+    font-size: 120%;
+}
+
+.welcome-heading h1 {
+    color: darkblue;
+}
+
+.open-hours {
+    width: 50%;
+    float: left;
+}
+
+.map {
+    width: 50%;
+    float: right;
+}
+
+.map a,
+.open-hours a {
+    text-decoration: none;
+    color: black;
+}
+
+.map a:hover,
+.open-hours a:hover {
+    color: white;
+}
+
+.btn-open-hours,
+.btn-map {
+    text-align: center;
+}
+
+.btn-open-hours {
+    margin-left: 40px;
+    margin-right: 20px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 180px;
+    cursor: pointer;
+}
+
+.btn-map {
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 180px;
+    cursor: pointer;
+}
+
+.btn-open-hours:hover,
+.btn-map:hover {
+    background-color: #337ab7;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+
+/*Map*/
+
+.floor_map {
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
+
+
+/*Opening Hours*/
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.opening-hours {
+    margin: 0px 50px 0px 50px;
+    ;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-size: 130%;
+    font-weight: bold;
+    padding: 20px;
+    color: maroon;
+}
+
+.text {
+    margin-top: 50px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+
+/*Indian*/
+
+.clearfix {
+    height: 200px;
+}
+
+.heading h2{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+/*Contact Page*/
+
+.contact{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.contact-info h2{
+    color: blue;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.contact-info p{
+    text-align: justify;
+    margin-right: 100px;
+    font-size: 120%;
+    
+}
+
+
+/*----------About--------------*/
+
+.about{
+    position: absolute;
+    left: 7.5%;
+    top: 65%
+}
+
+/*--------Copyright-------*/
+.copyright{
+    margin-top: 200px;
+}
+.copyright p{
+    margin: 50px;
+    font-size: 90%;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+/*--------images--------------*/
+
+.imageing{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.imageing img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+    border:3px solid black;
+
+}
+
+.contains {
+    margin: 50px;
+}
+.contains h2{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: royalblue;
+}
+.contains p{
+    font-size: 120%;
+    
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+Japanese
+---------
+JP1-Noodles
+JP2-Sashimi
+JP3-Sushi
+JP4-Tempura
+
+Mexican
+-------
+MX1-Burito
+MX2-Enchillidas
+MX3-Nachos
+
+Indian
+-------
+IN1-Chicken Butter Masala
+IN2-Dosa
+IN3-Idli
+IN4-Naan Bread
+IN5-Sambhar
+IN6-Lamb Seekh Kebab 
+IN7-Tandoori Chicken
+
+Chinese
+---------
+
+CH1-Fried Rice
+CH2-Noodles
+CH3-Sesame Sweet Balls
+CH4-Spring Rolls
+CH5-Sweet n Sour Pork

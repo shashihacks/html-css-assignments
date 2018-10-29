@@ -1,0 +1,10 @@
+Opening Hours:
+--------------
+
+Mon - Thur : 4:00pm to 9:00pm
+Fri        : 4:30pm to 11:00pm
+Sat        : 11:00am to 11:00pm
+Sun        : Closed
+Public Holidays: Closed
+
+
